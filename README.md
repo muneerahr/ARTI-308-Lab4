@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on data preprocessing techniques applied to a student dataset. The main objective is to improve data quality and prepare the dataset for further analysis and machine learning tasks.
+This project focuses on data preprocessing techniques applied to a student dataset. The main objective is to improve data quality and prepare the dataset for further analysis
 
 The preprocessing steps include handling missing values, detecting and treating outliers, normalizing numerical features, and applying dimensionality reduction using PCA.
 
@@ -17,7 +17,7 @@ The dataset was obtained from Kaggle.
 The dataset contains information about students, including:
 
 * **age** → Student age
-* **absences** → Number of school absences
+* **absences** → Number of school absences ,
 and more
 
 ## Data Preprocessing Steps
@@ -42,11 +42,7 @@ Two normalization techniques were applied:
 
 * **Min-Max Scaling**
 
-  * Scales values between 0 and 1
-
 * **Z-score Normalization**
-
-  * Transforms data to have mean = 0 and standard deviation = 1
 
 ### 4. Correlation Analysis
 
@@ -58,7 +54,6 @@ Two normalization techniques were applied:
 
 * PCA was applied to reduce dimensionality
 * The explained variance ratio was calculated
-* Results showed that most of the variance is captured by the first principal component
 
 Although the correlation between features is weak, PCA was applied for demonstration purposes.
 
