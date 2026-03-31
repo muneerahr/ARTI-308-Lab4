@@ -59,7 +59,6 @@ Although the correlation between features is weak, PCA was applied for demonstra
 
 ## Tools and Libraries Used
 
-* Python
 * Pandas
 * NumPy
 * Matplotlib
